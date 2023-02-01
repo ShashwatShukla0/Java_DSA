@@ -4,7 +4,7 @@ class Student {
 	int id;
 	String name;
 	
-	public void info() {
+	public void info(int id, String name) {
 		this.id = id;
 		this.name = name;
 	}
