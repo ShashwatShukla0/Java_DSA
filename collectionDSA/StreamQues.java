@@ -53,8 +53,16 @@ public class StreamQues {
     List<Student> list = res.collect(Collectors.toList());
     System.out.println("AFter sorting : ");
     list.forEach(s->System.out.println(s.getName()));
+    System.out.println("_________________________");
 
+    //Sort the String
+    List<Student> li = st
+                        .stream()
+                        .sorted(Comparator.comparing(Student::getClassn)).collect(Collectors.toList());
 
+    li.forEach(System.out::println);
+
+    System.out.println("_________________________");
 
 
     }
