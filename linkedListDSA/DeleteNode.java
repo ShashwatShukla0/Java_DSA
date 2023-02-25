@@ -36,9 +36,22 @@ public class DeleteNode {
         for(int i=0;i<pos;i++){
             if(i==0 && pos==1) {
                 head = head.next;
+            } else
+            {
+                if(i == pos-1 && temp!= null){
+                    prev.next = temp.next;
+                } else {
+                    prev = temp;
+
+                    if(prev == null){
+                        break;
+
+                    }
+                    temp = temp.next;
+                }
             }
         }
-        
+        return head;
     }
 
     public static void main(String args[]) {
