@@ -23,7 +23,6 @@ public class ReverseRecursive {
         } else{
             tail.next = new_node;
             tail = new_node;
-
         }
         
     }
