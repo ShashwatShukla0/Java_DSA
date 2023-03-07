@@ -13,7 +13,7 @@ public class StackwithLL {
     }
 
     static class Stack{
-        Node head;
+         Node head;
 
         public boolean isEmpty(){
             return head==null;
@@ -23,6 +23,7 @@ public class StackwithLL {
             Node new_node = new Node(data);
             if(isEmpty()){
                 head = new_node;
+                return;
             }
 
             new_node.next = head;
@@ -51,8 +52,8 @@ public class StackwithLL {
 
             Stack st = new Stack();
     
-            st.push(1);
             st.push(2);
+            st.push(1);
             st.push(3);
             st.push(4);
     
