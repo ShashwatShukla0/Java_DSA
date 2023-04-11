@@ -31,13 +31,14 @@ public class StackwithLL {
         }
 
         public int pop(){
-            if(isEmpty()){
+            if(isEmpty()) {
                 return -1;
             }
 
             int top = head.data;
             head = head.next;
             return top;
+            
         }
 
         public int peek(){
