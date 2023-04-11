@@ -29,9 +29,9 @@ public class PushAtBottom {
         pushAtBottom(6,st);
 
         while(!st.isEmpty()){
+            
             System.out.println(st.peek());
             st.pop();
         }
     }
-    
 }

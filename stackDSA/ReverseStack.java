@@ -44,8 +44,6 @@ public class ReverseStack {
             System.out.println(st.peek());
             st.pop();
         }
-
-       
     }
     
 }

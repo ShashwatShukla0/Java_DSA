@@ -12,7 +12,9 @@ public class StackwithArrList {
         }
 
         public void push(int data){
+
             list.add(data);
+            
         }
 
         public int pop(){
@@ -24,7 +26,6 @@ public class StackwithArrList {
         public int peek(){
             return list.get(list.size()-1);
         }
-
     }
     public static void main(String args[]){
 
