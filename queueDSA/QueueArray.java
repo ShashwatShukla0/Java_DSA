@@ -13,6 +13,7 @@ public class QueueArray {
 
         public boolean isEmpty(){
             return rear == -1;
+            
         }
 
         public void add(int data) {
