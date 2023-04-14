@@ -49,7 +49,7 @@ public class Student {
         return "Student [id=" + id + ", name=" + name + ", classn=" + classn + ", subject=" + subject + "]";
     }
 
-    Student(int id,String name,String classn,String subject){
+    public Student(int id,String name,String classn,String subject){
         this.id=id;
         this.name=name;
         this.classn=classn;
