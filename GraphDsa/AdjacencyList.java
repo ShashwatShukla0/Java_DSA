@@ -15,6 +15,8 @@ public class AdjacencyList {
         Edge(int s, int d){
             this.src = s;
             this.dest = d;
+
+            
         }
     }
 
