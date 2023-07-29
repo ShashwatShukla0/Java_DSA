@@ -20,7 +20,7 @@ public class AllEqualinArray {
 		      System.out.println(freq[a[i]]++); 
 		   }
 		   Arrays.sort(freq);
-		   //System.out.println(n-freq[1000]);
+		   System.out.println(n-freq[1000]);
 		}
     }
 }
