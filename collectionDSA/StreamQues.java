@@ -63,6 +63,10 @@ public class StreamQues {
 
     System.out.println("_________________________");
 
+    Optional<Student> l2 = st.stream().sorted(Comparator.comparing(Student::getId).reversed()).skip(1).findFirst();
+
+    System.out.println(l2);
+
 
     }
 
